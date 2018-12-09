@@ -1,0 +1,70 @@
+2018-12-02 17:27:27 INFO <module> [config.py-24] hello,world
+2018-12-02 17:42:38 INFO <module> [config.py-24] hello,world
+2018-12-02 17:42:38 INFO <module> [config.py-25] 中文日志
+2018-12-02 17:52:22 INFO test_login_normal [test_login.py-25] 接口地址:http://115.28.108.130:5000/api/user/login/
+2018-12-02 17:52:22 INFO test_login_normal [test_login.py-26] 请求数据：{"name":"liuliu2","password":"123456"}
+2018-12-02 17:52:22 INFO test_login_normal [test_login.py-27] 期望结果：<h1>登录成功</h1>
+2018-12-02 17:52:52 DEBUG _new_conn [connectionpool.py-205] Starting new HTTP connection (1): 115.28.108.130:5000
+2018-12-02 17:52:52 DEBUG _make_request [connectionpool.py-393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-12-02 17:52:52 INFO test_login_normal [test_login.py-25] 接口地址:http://115.28.108.130:5000/api/user/login/
+2018-12-02 17:52:52 INFO test_login_normal [test_login.py-26] 请求数据：{"name":"liuliu2","password":"123456"}
+2018-12-02 17:52:52 INFO test_login_normal [test_login.py-27] 期望结果：<h1>登录成功</h1>
+2018-12-02 17:52:52 INFO test_login_normal [test_login.py-28] 实际结果："<h1>\u767b\u5f55\u6210\u529f</h1>"
+2018-12-02 18:07:18 DEBUG _new_conn [connectionpool.py-205] Starting new HTTP connection (1): 115.28.108.130:5000
+2018-12-02 18:07:18 DEBUG _make_request [connectionpool.py-393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-12-02 18:12:34 DEBUG _new_conn [connectionpool.py-205] Starting new HTTP connection (1): 115.28.108.130:5000
+2018-12-02 18:12:34 DEBUG _make_request [connectionpool.py-393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-12-02 18:12:34 INFO log_case_info [case_log.py-4] --------------------------------------------------
+2018-12-02 18:12:34 INFO log_case_info [case_log.py-5] 执行用例：test_login_normal
+2018-12-02 18:12:34 INFO log_case_info [case_log.py-6] 接口地址:http://115.28.108.130:5000/api/user/login/
+2018-12-02 18:12:34 INFO log_case_info [case_log.py-7] 请求数据：{"name":"liuliu2","password":"123456"}
+2018-12-02 18:12:34 INFO log_case_info [case_log.py-8] 期望结果：<h1>登录成功</h1>
+2018-12-02 18:12:34 INFO log_case_info [case_log.py-9] 实际结果：<h1>登录成功</h1>
+2018-12-09 09:37:39 DEBUG _new_conn [connectionpool.py-205] Starting new HTTP connection (1): 115.28.108.130:5000
+2018-12-09 09:37:40 DEBUG _make_request [connectionpool.py-393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-12-09 09:37:40 INFO log_case_info [case_log.py-4] --------------------------------------------------
+2018-12-09 09:37:40 INFO log_case_info [case_log.py-5] 执行用例：test_login_normal
+2018-12-09 09:37:40 INFO log_case_info [case_log.py-6] 接口地址:http://115.28.108.130:5000/api/user/login/
+2018-12-09 09:37:40 INFO log_case_info [case_log.py-7] 请求数据：{"name":"liuliu2","password":"123456"}
+2018-12-09 09:37:40 INFO log_case_info [case_log.py-8] 期望结果：<h1>登录成功</h1>
+2018-12-09 09:37:40 INFO log_case_info [case_log.py-9] 实际结果：<h1>登录成功</h1>
+2018-12-09 10:18:14 DEBUG _new_conn [connectionpool.py-205] Starting new HTTP connection (1): 115.28.108.130:5000
+2018-12-09 10:18:14 DEBUG _make_request [connectionpool.py-393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-12-09 10:18:14 INFO log_case_info [case_log.py-4] --------------------------------------------------
+2018-12-09 10:18:14 INFO log_case_info [case_log.py-5] 执行用例：test_login_normal
+2018-12-09 10:18:14 INFO log_case_info [case_log.py-6] 接口地址:http://115.28.108.130:5000/api/user/login/
+2018-12-09 10:18:14 INFO log_case_info [case_log.py-7] 请求数据：{"name":"liuliu2","password":"123456"}
+2018-12-09 10:18:14 INFO log_case_info [case_log.py-8] 期望结果：<h1>登录成功</h1>
+2018-12-09 10:18:14 INFO log_case_info [case_log.py-9] 实际结果：<h1>登录成功</h1>
+2018-12-09 10:43:25 INFO <module> [run.py-13] 测试开始==================================================
+2018-12-09 10:43:25 DEBUG _new_conn [connectionpool.py-205] Starting new HTTP connection (1): 115.28.108.130:5000
+2018-12-09 10:43:25 DEBUG _make_request [connectionpool.py-393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-12-09 10:43:25 INFO log_case_info [case_log.py-4] --------------------------------------------------
+2018-12-09 10:43:25 INFO log_case_info [case_log.py-5] 执行用例：test_login_normal
+2018-12-09 10:43:25 INFO log_case_info [case_log.py-6] 接口地址:http://115.28.108.130:5000/api/user/login/
+2018-12-09 10:43:25 INFO log_case_info [case_log.py-7] 请求数据：{"name":"liuliu2","password":"123456"}
+2018-12-09 10:43:25 INFO log_case_info [case_log.py-8] 期望结果：<h1>登录成功</h1>
+2018-12-09 10:43:25 INFO log_case_info [case_log.py-9] 实际结果：<h1>登录成功</h1>
+2018-12-09 10:43:25 DEBUG db_query [db.py-16] select * from user where name='test100'
+2018-12-09 10:43:25 DEBUG db_query [db.py-22] ()
+2018-12-09 10:43:25 DEBUG _new_conn [connectionpool.py-205] Starting new HTTP connection (1): 115.28.108.130:5000
+2018-12-09 10:43:25 DEBUG _make_request [connectionpool.py-393] http://115.28.108.130:5000 "POST /api/user/reg/ HTTP/1.1" 200 111
+2018-12-09 10:43:26 DEBUG _new_conn [connectionpool.py-205] Starting new HTTP connection (1): 115.28.108.130:5000
+2018-12-09 10:43:26 DEBUG _make_request [connectionpool.py-393] http://115.28.108.130:5000 "POST /api/user/reg/ HTTP/1.1" 200 143
+2018-12-09 10:43:26 INFO <module> [run.py-16] 测试结束==================================================
+2018-12-09 12:10:52 INFO <module> [run.py-13] 测试开始==================================================
+2018-12-09 12:10:52 DEBUG _new_conn [connectionpool.py-205] Starting new HTTP connection (1): 115.28.108.130:5000
+2018-12-09 12:10:52 DEBUG _make_request [connectionpool.py-393] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 200 21
+2018-12-09 12:10:52 INFO log_case_info [case_log.py-4] --------------------------------------------------
+2018-12-09 12:10:52 INFO log_case_info [case_log.py-5] 执行用例：test_login_normal
+2018-12-09 12:10:52 INFO log_case_info [case_log.py-6] 接口地址:http://115.28.108.130:5000/api/user/login/
+2018-12-09 12:10:52 INFO log_case_info [case_log.py-7] 请求数据：{"name":"liuliu2","password":"123456"}
+2018-12-09 12:10:52 INFO log_case_info [case_log.py-8] 期望结果：<h1>登录成功</h1>
+2018-12-09 12:10:52 INFO log_case_info [case_log.py-9] 实际结果：<h1>登录成功</h1>
+2018-12-09 12:10:52 DEBUG db_query [db.py-16] select * from user where name='test100'
+2018-12-09 12:10:52 DEBUG db_query [db.py-22] ((9687, 'test100', 'e10adc3949ba59abbe56e057f20f883e'),)
+2018-12-09 12:10:52 DEBUG _new_conn [connectionpool.py-205] Starting new HTTP connection (1): 115.28.108.130:5000
+2018-12-09 12:10:52 DEBUG _make_request [connectionpool.py-393] http://115.28.108.130:5000 "POST /api/user/reg/ HTTP/1.1" 200 111
+2018-12-09 12:10:53 DEBUG _new_conn [connectionpool.py-205] Starting new HTTP connection (1): 115.28.108.130:5000
+2018-12-09 12:10:53 DEBUG _make_request [connectionpool.py-393] http://115.28.108.130:5000 "POST /api/user/reg/ HTTP/1.1" 200 143
+2018-12-09 12:10:53 INFO <module> [run.py-21] 测试结束==================================================
